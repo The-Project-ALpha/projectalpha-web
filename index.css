@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+::-webkit-scrollbar-thumb {
+    display: none;
+}
+body {
+    background-color: #000000;
+}
+/* menu text GBANA:12-22*/
+.github__text {color:#999999; text-decoration: none; transition: 0.5s ease-in;}
+.developer__text {color: #999999; text-decoration: none; transition: 0.5s ease-in;}
+.contact__text {color: #999999; text-decoration: none; transition: 0.5s ease-in;}
+.license__text {color: #999999; text-decoration: none; transition: 0.5s ease-in;}
+.join__text {color: #999999; text-decoration: none; transition: 0.5s ease-in;}
+.invite__text {color:#999999; text-decoration: none; transition: 0.5s ease-in;}
+.github__text:hover {color:white;}
+.developer__text:hover {color:white;}
+.contact__text:hover {color:white;}
+.license__text:hover {color:white;}
+.join__text:hover {color:white;}
+.invite__text:hover {color:white;}
+/* menu text GBANA:12-22*/
+
+/* menu layout GBANA: 12-22*/
+.header__menu_github {padding-left: 10px;}
+.header__menu_developer {padding-left: 10px;}
+.header__menu_contact {padding-left: 10px;}
+.header__menu_license {padding-left: 10px;}
+.header__menu_join {padding-left: 10px;}
+.header__menu_invite {padding-left: 10px;}
+
+.header {align-items: center;}
+/* menu layout GBANA: 12-22*/
+
+/* header -main GBANA: 12-22 */
+.header__logo {
+    color: white;
+    font-size: 25px;
+    cursor: pointer;
+    white-space: nowrap;
+    font-family: 'Montserrat', sans-serif;
+}
+.list-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+.header {
+    margin: 0;
+    padding: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #323233;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+/* header -main GBANA: 12-22 */
+
+.section-main {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.img-div {margin-left: auto; margin-right: auto; margin-bottom: 20%; margin-top: 10%;}
+.description {color: white; font-family: 'Roboto', sans-serif;}
+.descriptionofalpha {margin-left: 15%; margin-right: auto;}
+.description__alpha {color:#808085; font-size: 15px;}
+.invite-button {color: skyblue; text-decoration: none; font-size: 23px;}
+.code-button {color: skyblue; text-decoration: none; font-size: 23px; margin-left: 13%;}
+.buttons {margin-top: 5%; margin-left: 24.5%; margin-right: auto;}
+.section-secon {
+    margin: 0;
+    padding: 0;
+    height: 1000px;
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f7;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
